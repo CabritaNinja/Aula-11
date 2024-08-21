@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    font-family: "Fjalla One", sans-serif;
+    background: url(../imagens/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+#logo{
+    text-align: center;
+    background-color: #fbcc0f;
+}
+
+.menu{
+    background-color: whitesmoke;
+    text-align: left;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.art{
+    display: block;
+    margin-right: 25%;
+    border-radius: 10px;
+    background-color: #fbcc0f;
+    margin-top: 5%;
+}
+
+.carne{
+    margin-left: 5%;
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+    border: black solid;
+    color: black;
+    margin-right: -2px;
+    margin-left: -2px;
+    font-size: 20px;
+    border-style: double;
+}
+
+#espaço{
+    text-align: center;
+    background-color: whitesmoke;
+    margin-right: 10px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+#info{
+    display: block;
+    text-align: right;
+    background-color: #fbcc0f;
+    margin-top: 5%;
+    border-radius: 10px;
+    text-align: center;
+    }
+
+.bank{
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.rodape{
+    text-align: center;
+    background-color: whitesmoke;
+    opacity: 70%;
+}
+
+.copy{
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.Contato{
+    border: none;
+}
+
+.second{
+    background: url(../imagens/fundo2.png);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    border-radius: 100%;
+}
+
+.extra{
+    display: block;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cardapio{
+    display: block;
+    background-color: #fbcc0f;
+    margin-top: 5%;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 27%;
+}
+
+.lista{
+    background-color: rgba(97, 37, 37, 0.795);
+    border-radius: 10px;
+}
+
+
+.fim{
+    background-color: whitesmoke;
+    margin-top: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menu2{
+        display: block;
+        background-color: whitesmoke;
+        text-align: center;
+        margin-top: 5%;
+        border-radius: 10px;
+}
+
+.del{
+    color: red;
+    list-style: none;
+}
